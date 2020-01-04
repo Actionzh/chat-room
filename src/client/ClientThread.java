@@ -4,6 +4,9 @@ import java.io.*;
 import java.net.Socket;
 import java.net.UnknownHostException;
 
+/**
+ * @author zhanghui
+ */
 public class ClientThread extends Thread {
     BufferedReader br;
     BufferedWriter bw;
